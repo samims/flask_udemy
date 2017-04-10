@@ -1,6 +1,11 @@
 import os
-from app import app
 
+
+#from app import app
+#from library._02_html_inside_view import app
+#from library._03_template_str_inside_view import app
+#from library._04_template_outside_view import app
+from library._05_basic_routing import app
 
 if __name__ == '__main__':
     app.debug = True

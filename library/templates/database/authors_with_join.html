@@ -1,0 +1,8 @@
+<html>
+    <h1>This is the list of authors(with engine)</h1>
+    <ul>
+        {% for a in authors %}
+        <li>{{a['id']}}:{{a['name']}} (from <i><b>{{a['country']}}</i></b>)</li>
+        {% endfor %}
+    </ul>
+</html>

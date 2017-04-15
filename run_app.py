@@ -11,7 +11,8 @@ import os
 #from library._08_redirects import app
 #from library._09_simple_database_app import app
 #from library._10_database_app_template_eng import app
-from library._11_database_app_template_eng import app
+#from library._11_database_app_template_eng import app
+from library._12_database_app_with_join import app
 if __name__ == '__main__':
     app.debug = True
     host = os.environ.get('IP', '0.0.0.0')
